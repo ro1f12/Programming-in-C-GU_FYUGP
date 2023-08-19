@@ -24,7 +24,7 @@ int main()
 	printf("Size of float type is : %d Bytes\n", sizeof(float));	//using type with sizeof operator
 	printf("Size of float type is : %d Bytes\n", sizeof(var_float));//using variable name with sizeof operator
   
-	printf("Size of double type is : %d Bytes\n", sizeof(duble));	//using type with sizeof operator
+	printf("Size of double type is : %d Bytes\n", sizeof(double));	//using type with sizeof operator
 	printf("Size of double type is : %d Bytes\n", sizeof(var_double));//using variable name with sizeof operator
 
 	return 0;
