@@ -1,22 +1,10 @@
 #include<stdio.h>
-#include<malloc.h>
+
 int main()
 {
-int i,*p;
-p=(int *)malloc(5*sizeof(int));
-printf("\n Lets see");
-for(i=0;;i++)
-{
-	*(p+i)=0;
+	char ch1 ='9',ch2;
+	ch2 = ch1-'0';
 
-	printf(" \n %d",*(p+i));
-//	system("clear");
+	printf("%c:%d", ch1,ch2);
+	return 0;
 }
-
-return 0;
-}
-
-
-
-
-
